@@ -1,0 +1,23 @@
+{
+  "name": "icons",
+  "version": "1.0.0",
+  "description": "Icons to use with Zeyo Framework",
+  "keywords": [
+    "icons"
+  ],
+  "homepage": "https://github.com/zeyodev/icons#readme",
+  "bugs": {
+    "url": "https://github.com/zeyodev/icons/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeyodev/icons.git"
+  },
+  "license": "ISC",
+  "author": "evandrouzeda",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
