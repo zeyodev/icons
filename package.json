@@ -16,10 +16,13 @@
   "license": "ISC",
   "author": "evandrouzeda",
   "type": "module",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx tsc"
+    "build": "npx tsc",
+    "prepublishOnly": "npm run build",
+    "generate": "node generate-exports.js",
+    "prebuild": "npm run generate"
   },
   "devDependencies": {
     "typescript": "^4.9.5"
