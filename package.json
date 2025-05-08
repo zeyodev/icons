@@ -16,7 +16,8 @@
   "license": "ISC",
   "author": "evandrouzeda",
   "type": "module",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
+  "types": "src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx tsc",
